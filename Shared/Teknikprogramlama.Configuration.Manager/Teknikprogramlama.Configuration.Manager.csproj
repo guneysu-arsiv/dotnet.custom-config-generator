@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OAuth\OAuthSection.cs" />
+    <Compile Include="Abstract\OAuthSection.cs" />
     <Compile Include="OAuth\Facebook.cs" />
     <Compile Include="OAuth\Github.cs" />
     <Compile Include="OAuth\Google.cs" />
     <Compile Include="OAuth\Instagram.cs" />
-    <Compile Include="OAuth\OAuthElement.cs" />
+    <Compile Include="Abstract\OAuthElement.cs" />
     <Compile Include="OAuth\Twitter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

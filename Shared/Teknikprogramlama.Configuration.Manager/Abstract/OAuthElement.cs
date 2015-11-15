@@ -1,7 +1,7 @@
 using System;
 using System.Configuration;
 
-namespace Teknikprogramlama.Configuration.Manager.OAuth
+namespace Teknikprogramlama.Configuration.Manager.Abstract
 {
     public abstract class OAuthElement : ConfigurationElement
     {

@@ -3,8 +3,9 @@ using System.Configuration;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using Teknikprogramlama.Configuration.Manager.OAuth;
 
-namespace Teknikprogramlama.Configuration.Manager.OAuth
+namespace Teknikprogramlama.Configuration.Manager.Abstract
 {
     public class OAuthSection : ConfigurationSection
     {
